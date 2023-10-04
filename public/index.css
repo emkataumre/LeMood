@@ -1,0 +1,77 @@
+/* Styles for the header */
+:root {
+  --cph-orange: #fbb040;
+  --cph-orange-hover: #ff9800;
+}
+
+header {
+  background-color: #5e5e5e;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for the logo */
+.logo {
+  padding: 0 20px;
+}
+.logo img {
+  width: 350px;
+}
+/* Styles for the button */
+.button {
+  background-color: var(--cph-orange);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(
+    --cph-orange-hover
+  ); /* Change to a different color on hover */
+}
+
+.button:active {
+  transform: scale(0.97); /* Scale the button down when clicked */
+}
+
+/* Define custom CSS classes */
+.custom-div {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.custom-paragraph {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.custom-button {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: #0077cc;
+  margin-left: 10px;
+}
+
+/* Style button on hover */
+.custom-button:hover {
+  background-color: #ff2813;
+}

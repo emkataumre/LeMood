@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <script defer src="/login/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img src="img/logo.png" alt="Logo" />
+      </a>
+      <a href="form" class="button">Add class</a>
+    </header>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Login" />
+        </div>
+        <div class="form-group">
+          <a href="../createLogin">Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

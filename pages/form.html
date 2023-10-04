@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="form.css" />
+    <script defer src="form.js" type="module"></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Create a New Class</h1>
+    <form id="createClassForm">
+      <label for="className">Class Name:</label>
+      <input type="text" id="className" name="className" required /><br /><br />
+
+      <label for="fieldOfStudy">Field of Study:</label>
+      <input
+        type="text"
+        id="fieldOfStudy"
+        name="fieldOfStudy"
+        required
+      /><br /><br />
+
+      <label for="international">International Class:</label>
+      <input
+        type="checkbox"
+        id="international"
+        name="international"
+      /><br /><br />
+
+      <label for="startDate">Start Date:</label>
+      <input type="date" id="startDate" name="startDate" required /><br /><br />
+
+      <button id="createClass" type="submit">Create Class</button>
+      <a href="/">Back</a>
+    </form>
+  </body>
+</html>

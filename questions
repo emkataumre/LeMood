@@ -1,0 +1,5 @@
+0. How to do the file seperation properly? / 
+
+1. Where does the classes collection come from?
+2. How do i format the date to exclude hours, minutes, seconds and miliseconds
+3. Why is the internationalClass key missing. Im pretty sure it has something to do with the type: boolen but i cant figure it out
